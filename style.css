@@ -43,7 +43,6 @@ nav{
 }
 .upper_navbar{
 	background-color: #376ea5;
-	height:80px;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -84,54 +83,65 @@ nav{
 	padding: 15px;
 }
 /*//////////////////////////lower navbar\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
-.lower_navbar{
+
+
+.lower_navbar {
 	width: 100%;
 	height: 110px;
 	color: #fff;
 	background-color: rgba(0,0,0,0.7);
-	margin: 0;
-	padding: 0;
-	border: none;
-	box-shadow: none;
-	outline: none;
 	margin-top: 0;
-	position: relative;
-	top: 0;
+	padding-top: 0;
 }
-.lower_navbar_content{
+
+.upper_navbar {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.lower_navbar_content {
 	width: 85%;
 	margin: 0 auto;
 }
-.lower_navbar .logo{
+
+.lower_navbar .logo {
 	float: right;
 	height: 90px;
 	padding: 5px 30px;
 }
-.lower_navbar .logo img{
+
+.lower_navbar .logo img {
 	width: auto;
 	height: 100%;
 }
-.lower_navbar .dropdown-menu{
+
+.lower_navbar .dropdown-menu {
 	width: 50%;
 	position: relative;
 }
-.lower_navbar .dropdown-menu li{
+
+.lower_navbar .dropdown-menu li {
 	display: inline-block;
 	padding: 25px 0;
 	transition: 0.3s;
 	position: relative;
 }
-.lower_navbar .dropdown-menu li a, .lower_navbar .dropdown-menu ul li a{
+
+.lower_navbar .dropdown-menu li a,
+.lower_navbar .dropdown-menu ul li a {
 	text-decoration: none;
 	color: #fff;
 }
-.lower_navbar .dropdown-menu li:hover{
+
+.lower_navbar .dropdown-menu li:hover {
 	background: #444;
 }
-.lower_navbar .dropdown-menu li a{
+
+.lower_navbar .dropdown-menu li a {
 	padding: 20px 25px;
 }
-.lower_navbar .dropdown-menu ul{
+
+.lower_navbar .dropdown-menu ul {
 	position: absolute;
 	list-style: none;
 	padding: 0;
@@ -143,21 +153,25 @@ nav{
 	top: 100%;
 	left: 0;
 }
-.lower_navbar .dropdown-menu ul li{
+
+.lower_navbar .dropdown-menu ul li {
 	padding: 15px 0;
 	display: block;
 	background: #000;
 	text-align: left;
 }
-.lower_navbar .dropdown-menu ul li a{
+
+.lower_navbar .dropdown-menu ul li a {
 	padding: 15px 25px;
 	display: block;
 	font-size: 14px;
 }
-.lower_navbar .dropdown-menu li:hover ul{
+
+.lower_navbar .dropdown-menu li:hover ul {
 	display: block;
 }
-.fas{
+
+.fas {
 	padding-left: 8px;
 }
 /*//////////////////////////Header title div\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
