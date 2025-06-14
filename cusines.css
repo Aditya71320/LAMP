@@ -1,3 +1,4 @@
+
 *{
 	font: 1em Roboto;
 }
@@ -48,9 +49,12 @@ h1 {
   display: block;
   font-family: arial, sans-serif;
   margin: auto;
-  height: 100vh;
   position: relative;
   width: 85%;
+  
+  height: auto; /* instead of 100vh */
+  min-height: 100vh; /* ensures full viewport at least */
+  overflow-y: auto;
 }
 
 .tabordion input[name="sections"] {
